@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "775570529925",
+    "firebase_url": "https://walletid-4269c.firebaseio.com",
+    "project_id": "walletid-4269c",
+    "storage_bucket": "walletid-4269c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775570529925:android:79a880aee527efdb",
+        "android_client_info": {
+          "package_name": "com.example.walletid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775570529925-qhbm8ptqbnfrk7qkis6rva6qii8ebbua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.walletid",
+            "certificate_hash": "2b525253ec2155bbb0e8a10a3859d1085b1d997a"
+          }
+        },
+        {
+          "client_id": "775570529925-m6a8ake9rac6jcv974ffaqujabfhua1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFiYYD9ntNic1weAglKSHUJFA9LnwztvM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775570529925-m6a8ake9rac6jcv974ffaqujabfhua1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

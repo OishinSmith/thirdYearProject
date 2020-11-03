@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_logoutMenu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        app:showAsAction="never"
+        android:title="Logout" >
+    </item>
+
+    <item
+        android:id="@+id/action_addIds"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        app:showAsAction="never"
+        android:title="Add IDs" >
+    </item>
+
+    <item
+        android:id="@+id/action_checkID"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_face_black_24dp"
+        app:showAsAction="never"
+        android:title="Verify IDs" >
+    </item>
+
+    <item
+        android:id="@+id/action_requestPermissions"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="never"
+        android:title="Full Permissions" >
+    </item>
+
+</menu>
