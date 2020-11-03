@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:text="x"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="#175ab1"
+        android:background="@drawable/buttondesign"/>
+
+    <Button
+        android:id="@+id/IDbutton"
+        android:layout_width="308dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#175ab1"
+        android:layout_toLeftOf="@id/remove"
+        android:background="@drawable/buttondesign"/>
+
+</RelativeLayout>

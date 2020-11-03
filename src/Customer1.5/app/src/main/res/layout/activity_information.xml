@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".information"
+    android:id="@+id/action_information">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TopMenu"
+        android:layout_marginBottom="20dp">
+
+        <include layout="@layout/layout_top"></include>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="719dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/instructionstv"
+            android:layout_width="196dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="INSTRUCTIONS"
+            android:textAlignment="center"
+            android:textColor="#175ab1"
+            android:textSize="25dp"
+            app:layout_constraintTop_toBottomOf="@+id/instructionstv5"
+            tools:layout_editor_absoluteX="95dp" />
+
+        <TextView
+            android:id="@+id/instructionstv2"
+            android:layout_width="356dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            app:layout_constraintTop_toBottomOf="@+id/instructionstv6"
+            tools:layout_editor_absoluteX="95dp" />
+
+        <TextView
+            android:id="@+id/instructionstv3"
+            android:layout_width="356dp"
+            android:layout_height="177dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            app:layout_constraintTop_toBottomOf="@+id/instructionstv2"
+            tools:layout_editor_absoluteX="95dp" />
+
+        <TextView
+            android:id="@+id/instructionstv4"
+            android:layout_width="356dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            app:layout_constraintTop_toBottomOf="@+id/instructionstv3"
+            tools:layout_editor_absoluteX="95dp" />
+
+        <TextView
+            android:id="@+id/instructionstv5"
+            android:layout_width="356dp"
+            android:layout_height="172dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="180dp" />
+
+        <TextView
+            android:id="@+id/instructionstv6"
+            android:layout_width="356dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            app:layout_constraintTop_toBottomOf="@+id/instructionstv"
+            tools:layout_editor_absoluteX="95dp" />
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
